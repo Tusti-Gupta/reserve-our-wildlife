@@ -1,0 +1,120 @@
+body {
+text-align: center;
+}
+
+nav {
+height: 100px;
+}
+
+.navbar-collapse a {
+color: white;
+font-size: 20px;
+text-align: center;
+}
+
+#zoom-logo {
+margin-top: 200px;
+height: 280px;
+width: 620p;
+}
+
+#Home {
+background-image: url(https://s01.sgp1.cdn.digitaloceanspaces.com/article/143116-bbjrhjihgb-1592568414.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#Home .text-capitalize {
+font-weight: bolder;
+text-align: left;
+margin-left: 80px;
+font-size: 80px;
+}
+
+#Protect_our {
+color: black;
+}
+
+#wildlife {
+color: #f57f0a;
+}
+
+#designer-line {
+margin-left: 80px;
+height: 25px;
+width: 180px;
+background-color: #f57f0a;
+}
+
+.text-conjuster {
+width: 400px;
+font-size: 25px;
+color: white;
+font-style: italic;
+}
+
+.info-box {
+text-align: left;
+position: absolute;
+}
+
+#box1 {
+margin-left:80px;
+}
+
+#box2 {
+margin-left:550px;
+}
+
+#box3 {
+margin-left:1050px;
+}
+
+.number {
+color: orangered;
+font-size: 120px;
+font-weight: bolder;
+}
+
+#info-container .text-capitalize {
+font-weight: bold;
+}
+
+#grey-box {
+background-color:grey;
+padding: 30px;
+padding-top: 90px;
+}
+
+#image-box {
+margin-left: 505px;
+}
+
+#orange-box {
+background-color: orange;
+margin-left: 1010px;
+padding: 50px;
+text-align: justify;
+}
+
+.color-boxes {
+position: absolute;
+color: white;
+width: 505px;
+height: 500px;
+}
+
+.scrollmenu {
+overflow-x: hidden;
+overflow-y: auto;
+}
+
+#Home .text-conjuster {
+margin-left: 80px;
+}
+
+#orange-box_pointers {
+list-style: outside;
+margin: 0;
+padding: 0;
+}
