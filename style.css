@@ -118,3 +118,43 @@ list-style: outside;
 margin: 0;
 padding: 0;
 }
+
+.imgcover {
+    padding: 20px;
+    width: fit-content;
+}
+
+.section3images {
+    height: 500px;
+    width: 700px;
+}
+
+label {
+    color: whitesmoke;
+    font-family: cursive;
+}
+
+.flex-container {
+    display: flex;
+    padding: 10px
+}
+
+#one {
+    background-color: lightgreen;
+}
+
+#four {
+    background-color: #f57f0a;
+}
+
+#three {
+    background-color: pink;
+}
+
+#two {
+    background-color: lightskyblue;
+}
+
+#five {
+    background-color: purple;
+}
