@@ -8,150 +8,446 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <meta charset="utf-8"/>
+    <link href='https://fonts.googleapis.com/css?family=Architects Daughter' rel='stylesheet'>
+    <script src="main.js"></script>
 </head>
 
 <body>
-
-    <nav class="navbar-inverse"style="position:sticky;top:0;z-index:99999">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>                        
-            </button>
-            <center>
-                <a class="navbar-brand">
-                    <div data-toggle="modal" data-target="#zoom-logo" class="img-container">
-                        <img src="Website%20logo.jpg" height="70" width="155"/>
-                    </div>
-        
-                    <center>
-                        <div class="modal fade" id="zoom-logo">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-body">
-                                        <button class="close" data-dismiss="modal">&times;</button>
-                                        <img src="Website%20logo.jpg"  height="185" width="425"/>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </center>
-                </a>
-            </center>
-        </div>
-    
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        
-        <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav">
-                <li class="item"><a href="#Home"> Home </a></li>
-                <li class="item"><a href="#What_can_we_do?"> What can we do? </a></li>
-                <li class="item"><a href="#Endangered_Species"> Endangered Species </a></li>
-                <li class="item"><a href="#Inspire"> Inspire </a></li>
-                <li class="item"><a href="#Programs">Programs</a></li>
-            </ul>
-        </div>
-    </nav>
-    
-    <section id="Home">
-        <br /><br /><br />
-        <div id="designer-line"></div>
-        <h1 class="text-capitalize"id="Protect_our">PROTECT OUR <h1 class="text-capitalize"id="wildlife">WILDLIFE</h1></h1>
-        <br /><br /><br /><br /><br /><br />
-        <div class="text-conjuster"><sup><i class="fa fa-quote-left"></i></sup>&nbsp;<p2>We don’t own the planet Earth, we belong to it. And we must share it with our wildlife.</p2>&nbsp;<sup><i class="fa fa-quote-right"></i></sup></div>
-        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-    </section>
-    
-    <br><br>
-    
-    <div id="info-container">
-        <div class="info-box" id="box1">
-            <h1 class="number"> 41K </h1>
-            <h2 class="text-capitalize"> Endangered species </h2>
-        </div>
-        <div class="info-box" id="box2">
-            <h1 class="number"> 16K </h1>
-            <h2 class="text-capitalize"> threatened with extinction </h2>
-        </div>
-        <div class="info-box" id="box3">
-            <h1 class="number"> 88 </h1>
-            <h2 class="text-capitalize"> Conservation programs in India </h2>
-        </div>
+  <nav class="navbar-inverse"style="position:sticky;top:0;z-index:100; height: 90px;">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <center>
+        <a class="navbar-brand"><img src="Website%20logo.jpg"  height="65" width="170"/></a>
+      </center>
     </div>
     
-    <br><br><br><br><br><br><br><br><br><br><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="item"><a class="nav-link" href="#Home"> ʜᴏᴍᴇ </a></li>
+        <li class="item"><a class="nav-link"href="#Endangered_Species"> ᴇɴᴅᴀɴɢᴇʀᴇᴅ ꜱᴘᴇᴄɪᴇꜱ </a></li>
+        <li class="item"><a class="nav-link dropdown" href="#Library"> ʟɪʙʀᴀʀʏ </a></li>
+        <li class="item"><a class="nav-link" href="#Contribute"> ᴄᴏɴᴛʀɪʙᴜᴛᴇ </a></li>
+      </ul>
+    </div>
+  </nav>
+  <marquee loop="-1"> The conservation of wildlife is necessary for prevention of drought, new deserts, fires as well as 
+    flood. Conservation ensures that the upcoming generations of human and wildlife will be surrounded by 
+    nature thereby loving it and understanding the significance of wildlife. </marquee>
+
+  <div id="Home">
+    <br><br><br><br><br><br><br>
+    <span class="fa fa-quote-left" style="font-size: 100px; margin-left: 50px; color: orange;"></span>
+    <p style="margin-left: 50px; font-size: 70px; color: #FFFFF0; font-family: Impact; font-weight: 100;" >We dont own planet
+      <br>
+      earth, we belong to it
+      <br>
+      and we must share it 
+      <br>
+      with our wildlife!</p>
+    <span class="fa fa-quote-right" style="font-size: 100px; margin-left: 50px; color: orange;"></span>
+    <br><br><br><br><br><br><br><br>
+  </div>
+
+  <div id="Endangered_Species">
+    <br>
+    <center><h1 style="font-family: Architects Daughter;"> WWF Endangered Species List </h1></center>
+    <br><br>
+    <div class="gallery bg-primary" style="margin-left: 15px;">
+      <a target="_blank" href="https://www.worldwildlife.org/species/african-forest-elephant">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Loxodontacyclotis.jpg">
+      </a>
+      <div class="desc">
+        African Forest Elephant (<i>Loxodonta Cyclotis</i>) <br><br>
+      </div>
+    </div>
+
+    <div class="gallery bg-success">
+      <a target="_blank" href="https://www.worldwildlife.org/species/amur-leopard">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Panthera_pardus_orientalis_Colchester_Zoo_%281%29.jpg/1200px-Panthera_pardus_orientalis_Colchester_Zoo_%281%29.jpg">
+      </a>
+      <div class="desc">
+        Amur Leopard (<i>Panthera Pardus Orientalis</i>)
+      </div>
+    </div>
+
+    <div class="gallery bg-info">
+      <a target="_blank" href="https://www.worldwildlife.org/species/black-rhino">
+        <img src="https://cdn.britannica.com/89/162189-050-9CFBC925/Kavango-Zambezi-Transfrontier-Conservation-Area-rhino-species-March-2012.jpg">
+      </a>
+      <div class="desc">
+        Black Rhino (<i>Diceros bicornis</i>) <br><br>
+      </div>
+    </div>
+
+    <div class="gallery bg-warning">
+      <a target="_blank" href="https://www.worldwildlife.org/species/bornean-orangutan">
+        <img src="https://cdn.britannica.com/81/65381-050-B34096B5/orangutan-branches-tree.jpg">
+      </a>
+      <div class="desc">
+        Bornean Orangutan (<i>Pongo pygmaeus</i>) <br><br>
+      </div>
+    </div>
+
+    <div class="gallery bg-danger">
+      <a target="_blank" href="https://www.worldwildlife.org/species/cross-river-gorilla">
+        <img src="https://images.takeshape.io/86ce9525-f5f2-4e97-81ba-54e8ce933da7/dev/4575b825-76d4-4cbd-aa8e-d1a0b8a369a1/Cross_river_gorilla_2.jpeg">
+      </a>
+      <div class="desc">
+        Cross River Gorilla (<i>Gorilla gorilla diehli</i>) <br><br>
+      </div>
+    </div>
+
+    <div class="gallery bg-primary">
+      <a target="_blank" href="https://www.worldwildlife.org/species/eastern-lowland-gorilla">
+        <img src="https://www.accessscience.com/binary/mheasworks/3bd708a1ec8a8a73/c462d024b27d0cf5fff17c0725e9450651c5cb610a9df781613bd0865a8809bc/BR1128161FG0010.jpg">
+      </a>
+      <div class="desc">
+        Eastern Lowland Gorilla (<i>Gorilla beringei graueri</i>)
+      </div>
+    </div>
+
+    <div class="gallery bg-success">
+      <a target="_blank" href="https://www.worldwildlife.org/species/hawksbill-turtle">
+        <img src="https://files.worldwildlife.org/wwfcmsprod/images/SCR_290360hawskbill_why_matter_LG.jpg/carousel_small/3lnekn9qn3_SCR_290360hawskbill_why_matter_LG.jpg">
+      </a>
+      <div class="desc">
+        Hawksbill Turtle (<i>Eretmochelys imbricata</i>)
+      </div>
+    </div>
+
+    <div class="gallery bg-info" style="margin-left: 15px;">
+      <a target="_blank" href="https://www.worldwildlife.org/species/javan-rhino">
+        <img src="https://i.pinimg.com/originals/f1/af/51/f1af519f0f515bf424bb7ccfd2bde4d8.jpg">
+      </a>
+      <div class="desc">
+        Javan Rhino (<i>Rhinoceros sondaicus</i>) <br><br>
+      </div>
+    </div>
+
+    <div class="gallery bg-warning">
+      <a target="_blank" href="https://www.worldwildlife.org/species/sumatran-orangutan">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Pongo_abelii_m2.JPG">
+      </a>
+      <div class="desc">
+        Sumatran Orangutan (<i>Pongo abelii</i>) <br><br>
+      </div>
+    </div>
+
+    <div class="gallery bg-danger">
+      <a target="_blank" href="https://www.worldwildlife.org/species/saola">
+        <img src="https://i.ytimg.com/vi/ChzmQo-OwbA/maxresdefault.jpg">
+      </a>
+      <div class="desc">
+        Saola (<i>Pseudoryx nghetinhensis</i>) <br><br>
+      </div>
+    </div>
+
+    <div class="gallery bg-primary">
+      <a target="_blank" href="https://www.worldwildlife.org/species/sumatran-elephant">
+        <img src="https://ichef.bbci.co.uk/images/ic/1200x675/p04vp682.jpg">
+      </a>
+      <div class="desc">
+        Sumatran Elephant (<i>Elephas maximus sumatranus</i>)
+      </div>
+    </div>
+
+    <div class="gallery bg-success">
+      <a target="_blank" href="https://www.worldwildlife.org/species/sumatran-rhino">
+        <img src="https://media.savetherhino.org/prod/uploads/2021/02/SumatranRhino_NickGarbuttPhotography.png">
+      </a>
+      <div class="desc">
+        Sumatran Rhino (<i>Dicerorhinus Sumatrensis</i>)
+      </div>
+    </div>
+
+    <div class="gallery bg-info">
+      <a target="_blank" href="https://www.worldwildlife.org/species/sunda-tiger">
+        <img src="https://discovery-assets-production.s3.eu-west-1.amazonaws.com/app/uploads/2022/02/10165750/iStock-1323863855-770x514.jpg">
+      </a>
+      <div class="desc">
+        Sunda Tiger (<i>Panthera Tigris Sondaica</i>) <br><br>
+      </div>
+    </div>
+
+    <div class="gallery bg-warning">
+      <a target="_blank" href="https://www.worldwildlife.org/species/vaquita">
+        <img src="https://th-thumbnailer.cdn-si-edu.com/cYyG_bH5Mjc2tehD2_GrsVGHUeI=/fit-in/1600x0/filters:focal(600x331:601x332)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/5c/f3/5cf3e81a-c3dd-4c55-ad91-c4a7767b0612/phocoena_sinus.jpg">
+      </a>
+      <div class="desc">
+        Vaquita (<i>Phocoena Sinus</i>) <br><br>
+      </div>
+    </div>
+
+    <div class="gallery bg-danger" style="margin-left: 15px;">
+      <a target="_blank" href="https://www.worldwildlife.org/species/western-lowland-gorilla">
+        <img src="https://media.cnn.com/api/v1/images/stellar/prod/190726074321-01-trudy-gorilla-file.jpg">
+      </a>
+      <div class="desc">
+        Western Lowland Gorilla (<i>Gorilla Gorilla Gorilla</i>) <br><br>
+      </div>
+    </div>
+
+    <div class="gallery bg-primary">
+      <a target="_blank" href="https://www.worldwildlife.org/species/yangtze-finless-porpoise">
+        <img src="https://www.globaltimes.cn/Portals/0/attachment/2020/2020-01-04/a90adb71-36f1-4b73-b50a-2cfe95fe98db.jpeg">
+      </a>
+      <div class="desc">
+        Yangtze Finless Porpoise (<i>Neophocaena Asiaeorientalis</i>)
+      </div>
+    </div>
+
+    <div class="gallery bg-success">
+      <a target="_blank" href="https://www.worldwildlife.org/species/african-savanna-elephant">
+        <img src="https://www.theanimalfacts.com/wp-content/uploads/2020/09/African-savanna-elephant-3.jpg">
+      </a>
+      <div class="desc">
+        African Savanna Elephant (<i>Loxodonta Africana Africana</i>) <br><br>
+      </div>
+    </div>
+
+    <div class="gallery bg-info">
+      <a target="_blank" href="https://www.worldwildlife.org/species/african-wild-dog">
+        <img src="https://images.immediate.co.uk/production/volatile/sites/23/2019/11/P6071657-b23cdbb.jpg">
+      </a>
+      <div class="desc">
+        African Wild Dog (<i>Lycaon Pictus</i>) <br><br><br>
+      </div>
+    </div>
     
-    <section id="What_can_we_do?">
-        <br /><br /><br />
-        <div id="section2-container">
-            <div class="color-boxes" id="grey-box">
-               <div class="text-conjuster"><sup><i class="fa fa-quote-left"></i></sup>&nbsp;<p2>Wildlife is something which man cannot construct. Once it is gone, it is gone forever.</p2>&nbsp;<sup><i class="fa fa-quote-right"></i></sup></div> 
-               <br><br>
-               <div class="text-conjuster"><sup><i class="fa fa-quote-left"></i></sup>&nbsp;<p2>An animal's eyes have the power to speak a great language.</p2>&nbsp;<sup><i class="fa fa-quote-right"></i></sup></div> 
-               <br><br>
-               <div class="text-conjuster"><sup><i class="fa fa-quote-left"></i></sup>&nbsp;<p2>The wildlife and its habitat cannot speak, so we must and we will.</p2>&nbsp;<sup><i class="fa fa-quote-right"></i></sup></div> 
-            </div>
-            <div class="color-boxes" id="image-box">
-                <img style="height: 500px; width: 505px;" src="https://static.scientificamerican.com/blogs/cache/file/65367319-B08B-4C77-8A2F42A5E05C8B53_source.jpg?w=590&h=800&D6D8E7BF-D19C-4E8C-90079A9237B3FE79">
-            </div>
-            <div class="color-boxes scrollmenu" id="orange-box">
-                <ul id="orange-box_pointers">
-                    <li> Volunteer. If you don’t have money to give, donate your time. Many organizations and zoos have volunteer programs. You can help clean beaches, rescue wild animals or teach visitors.</li>
-                    <li> Visit. Zoos, aquariums, national parks and wildlife refuges are all home to wild animals. Learn more about our planet’s species from experts. See Earth’s most amazing creatures up close.</li>
-                    <li> Donate. When you visit your local accredited zoos and nature reserves, pay the recommended entry fee. Your donations help maintain these vital conservation areas. </li>
-                    <li> Speak Up. Share your passion for wildlife conservation with your family. Tell your friends how they can help. Ask everyone you know to pledge to do what they can to stop wildlife trafficking. </li>
-                    <li> Buy Responsibly. By not purchasing products made from endangered animals or their parts, you can stop wildlife trafficking from being a profitable enterprise.</li>
-                    <li> Pitch In. Trash isn’t just ugly, it’s harmful. Birds and other animals can trap their heads in plastic rings. Fish can get stuck in nets. Plus, trash pollutes everyone’s natural resources. Do your part by putting trash in its place.</li>
-                    <li> Recycle. Find new ways to use things you already own. If you can’t reuse, recycle. The Minnesota Zoo encourages patrons to recycle mobile phones to reduce demand for the mineral coltan, which is mined from lowland gorillas’ habitats.</li>
-                    <li> Restore. Habitat destruction is the main threat to 85 percent of all threatened and endangered species, according to the International Union for Conservation of Nature. You can help reduce this threat by planting native trees, restoring wetlands or cleaning up beaches in your area.</li>
-                    <li> Join. Whether you’re into protecting natural habitats or preventing wildlife trafficking, find the organization that speaks to your passion and get involved. Become a member. Stay informed. Actively support the organization of your choice.</li>
-                </ul>
-            </div>
+    <div class="gallery bg-warning">
+      <a target="_blank" href="https://www.worldwildlife.org/species/asian-elephant">
+        <img src="https://u4d2z7k9.rocketcdn.me/wp-content/uploads/2022/01/rsz_jessica-knowlden-avrbjovuka-unsplash.jpg">
+      </a>
+      <div class="desc">
+        Asian Elephant (<i>Elephas Maximus Indicus</i>) <br><br>
+      </div>
+    </div>
+
+    <div class="gallery bg-danger">
+      <a target="_blank" href="https://www.worldwildlife.org/species/black-footed-ferret">
+        <img src="https://therevelator.org/wp-content/uploads/2020/01/black-footed-ferrets-Kimberly-Fraser-USFWS-cropped.jpg">
+      </a>
+      <div class="desc">
+        Black-footed Ferret (<i>Mustela Nigripes</i>) <br><br><br>
+      </div>
+    </div>
+
+    <div class="gallery bg-primary">
+      <a target="_blank" href="https://www.worldwildlife.org/species/blue-whale">
+        <img src="https://cdn.cdnparenting.com/articles/2018/05/439277209-H-1024x700.webp">
+      </a>
+      <div class="desc">
+        Blue Whale (<i>Balaenoptera Musculus</i>)<br><br>
+      </div>
+    </div>
+
+    <div class="gallery bg-success" style="margin-left: 15px;">
+      <a target="_blank" href="https://www.worldwildlife.org/species/bluefin-tuna">
+        <img src="https://files.worldwildlife.org/wwfcmsprod/images/Atlantic_bluefin_tuna_253467_Tuna_Species/hero_small/925cryk2za_Bluefin_tuna_253467.jpg">
+      </a>
+      <div class="desc">
+        Bluefin Tuna (<i>Thunnus Thynnus</i>) <br><br>
+      </div>
+    </div>
+
+    <div class="gallery bg-info">
+      <a target="_blank" href="https://www.worldwildlife.org/species/bonobo">
+        <img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/1-bonobo-pan-paniscus-portrait-cyril-ruoso.jpg">
+      </a>
+      <div class="desc">
+        Bonobo (<i>Pan Paniscus</i>) <br><br><br>
+      </div>
+    </div>
+
+    <div class="gallery bg-warning">
+      <a target="_blank" href="https://www.worldwildlife.org/species/bornean-elephant">
+        <img src="https://www.worldlandtrust.org/wp-content/uploads/2011/12/bornean-elephants-hutan-l.jpg">
+      </a>
+      <div class="desc">
+        Bornean Elephant (<i>Elephas Maximus Borneensis</i>)
+      </div>
+    </div>
+
+    <div class="gallery bg-danger">
+      <a target="_blank" href="https://www.worldwildlife.org/species/chimpanzee">
+        <img src="https://cdn.britannica.com/66/161466-050-6877BAC6/chimpanzees-male-all-lives-females-community-mother.jpg">
+      </a>
+      <div class="desc">
+        Chimpanzee (<i>Pan troglodytes</i>) <br><br>
+      </div>
+    </div>
+
+    <div class="gallery bg-primary">
+      <a target="_blank" href="https://www.worldwildlife.org/species/fin-whale">
+        <img src="https://www.fisheries.noaa.gov/s3/dam-migration/fin-whale.jpg">
+      </a>
+      <div class="desc">
+        Fin Whale (<i>Balaenoptera Physalus</i>)
+      </div>
+    </div>
+
+    <div class="gallery bg-success">
+      <a target="_blank" href="https://www.worldwildlife.org/species/galapagos-penguin">
+        <img src="https://cdn.britannica.com/54/158754-050-CFE5C585/Galapagos-penguin.jpg">
+      </a>
+      <div class="desc">
+        Galapagos Penguin (<i>Spheniscus Mendiculus</i>)
+      </div>
+    </div>
+
+    <div class="gallery bg-info">
+      <a target="_blank" href="https://www.worldwildlife.org/species/ganges-river-dolphin">
+        <img src="https://th-i.thgim.com/public/sci-tech/energy-and-environment/eeljaf/article37292363.ece/alternates/FREE_1200/04isbsganges-river-dolphinjpg">
+      </a>
+      <div class="desc">
+        Ganges River dolphin (<i>Platanista Gangetica Gangetica</i>) 
+      </div>
+    </div>
+
+    <center>
+      <a href="https://www.worldwildlife.org/species/directory?direction=desc&sort=extinction_status" target="_blank"> Want more? Click here </a>
+    </center>
+  </div>
+
+  <br><hr>
+
+  <div id="Library">
+    <center>
+      <h1 style="font-family: Architects Daughter;"> Video Library </h1>
+      <br><br
+      <iframe width="945.1" height="531.7" src="https://www.youtube.com/embed/Xx9pc9c-mGQ" title="Protect Wildlife" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="945.1" height="531.7" src="https://www.youtube.com/embed/BTzm6RKmaXs" title="Modern day wildlife conservation | Nick Bubb | TEDxZuriberg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="945.1" height="531.7" src="https://www.youtube.com/embed/pR83Woy0zDs" title="How community-led conservation can save wildlife | Moreangels Mbizah" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="945.1" height="531.7" src="https://www.youtube.com/embed/zQZndqa2bIw" title="Top 5 Inspirational Animal Conservation Stories | BBC Earth" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="945.1" height="531.7" src="https://www.youtube.com/embed/AWsgK0JaAdM" title="Earth’s Disappearing Wildlife | Connected with Divya Gopalan" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </center>
+  </div>
+
+  <br><hr>
+
+  <div id="Contribute">
+
+    <center><h1 style="font-family: Architects Daughter;"> Popular Wildlife Donation Sites </h1><br><br></center>
+    
+    <div class="flip-card" style="margin-left: 23px; float: left;">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="https://creativereview.imgix.net/content/uploads/2011/03/panda.jpg" style="width: 298px;height: 298px;">
         </div>
-    </section>
-    
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        <div class="flip-card-back" style="background-color: red">
 
-    <section id="Endangered_Species">
-        <center>
-            <div class="flex-container">
-                <div class="imgcover" id="one">
-                    <img class="section3images" src="https://cdn.britannica.com/85/189185-004-5D2FE81D/Giant-pandas-National-Zoological-Park-Washington-DC.jpg?q=60">
-                    <br><br>
-                    <label> Giant Panda </label>       
-                </div>
-                &nbsp;&nbsp;&nbsp;
-                <div class="imgcover" id="two">
-                    <img class="section3images" src="https://cdn.britannica.com/73/161673-050-7071CE8B/boat-blue-whale-Sea-of-Cortez-Mexico.jpg?q=60">
-                    <br><br>
-                    <label> Blue Whale </label>
-                </div>
+          <h1> WWF </h1>
+          <button style="background-color: orange;"><a href="https://support.worldwildlife.org/site/SPageServer?pagename=can_home&_gl=1*jjqlcj*_ga*OTA5MDUzMjE2LjE2ODU2NTMwMjM.*_ga_FK6M9RK84Z*MTY4NjE1Nzg3NS4xMC4xLjE2ODYxNTc5MzkuNjAuMC4w&_ga=2.98262358.891126548.1686088446-909053216.1685653023" target="_blank"> Take Action </a></button>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <button style="background-color: orange;"><a href="https://support.worldwildlife.org/site/SPageServer/?pagename=panda_nation_fundraising&s_subsrc=topnav" target="_blank"> Raise Funds </a></button>
+          <br><br>
+          <button style="background-color: orange;"><a href="https://support.worldwildlife.org/site/SPageServer/?pagename=WWF_Free_Ecards&_gl=1*1rzm3v0*_ga*OTA5MDUzMjE2LjE2ODU2NTMwMjM.*_ga_FK6M9RK84Z*MTY4NjE1Nzg3NS4xMC4xLjE2ODYxNTk5NDAuMzIuMC4w&_ga=2.110990924.891126548.1686088446-909053216.1685653023" target="_blank"> Send E-Cards </a></button>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <button style="background-color: orange;"><a href="https://www.worldwildlife.org/teaching-resources?_ga=2.96686678.891126548.1686088446-909053216.1685653023" target="_blank"> Educate </a></button>
+          <br><br>
+          <button style="background-color: orange;"><a href="https://www.worldwildlife.org/travel" target="_blank"> Travel with WWF </a></button>
+          &nbsp;&nbsp;
+          
+          <div class="dropdown">
+            <button class="dropbtn" style="background-color: orange;">Donate</button>
+            <div class="dropdown-content">
+            <a href="https://support.worldwildlife.org/site/SPageServer?pagename=main_onetime&s_src=AWE2311OQ18336A07010TX&s_subsrc=topnav&_gl=1*gplkhl*_ga*OTA5MDUzMjE2LjE2ODU2NTMwMjM.*_ga_FK6M9RK84Z*MTY4NjE1Nzg3NS4xMC4xLjE2ODYxNjA0ODQuMTQuMC4w&_ga=2.68367832.891126548.1686088446-909053216.1685653023" target="_blank">One-time Donation</a>
+            <a href="https://support.worldwildlife.org/site/SPageServer?pagename=main_monthly&s_src=AWE2209OQ18336A01563RX&s_subsrc=topnav" target="_blank">Monthly Donation</a>
+            <a href="https://support.worldwildlife.org/site/Donation2?df_id=13830&13830.donation=form1&s_src=AWE2209OQ18336A06078RX&s_subsrc=topnav" target="_blank">Donate in Someone's Name</a>
+            <a href="https://support.worldwildlife.org/site/SPageServer?pagename=main_renewal&s_src=AWR2209OQ18336A01571RX&s_subsrc=topnav" target="_blank">Renew Membership</a>
             </div>
-            <div class="flex-container">
-                <div class="imgcover" id="three">
-                    <img class="section3images" src="https://cdn.britannica.com/52/170952-050-A545E35D/carnivore-Snow-leopard-regions-subcontinent-Asia-Indian.jpg?q=60">
-                    <br><br>
-                    <label> Snow Leopard </label>
-                </div>
-                &nbsp;&nbsp;&nbsp;
-                <div class="imgcover" id="four">
-                    <img class="section3images" src="https://cdn.britannica.com/69/65969-050-8E4B0AB9/Orangutan.jpg?q=60">
-                    <br><br>
-                    <label> Orangutan </label>
-                </div>
-            </div>
-            <div class="imgcover" id="five"> 
-                <img class="section3images" src="https://cdn.britannica.com/65/161265-050-7485A0B2/Sea-otter.jpg?q=60">
-                <br><br>
-                <label> Sea Otter </label>
-            </div>
-        </center>
-    </section>
+          </div>
 
-    <br><br><br><br><br>
+          <br><br>
+          <button style="background-color: orange;"><a href="https://www.worldwildlife.org/pages/partners-in-conservation?_ga=2.67263704.891126548.1686088446-909053216.1685653023" target="_blank"> Partnership </a></button>
 
-    <iframe src="https://x.thunkable.com/web-build/index.html?projectId=606d24ef6132ce00124bddd8&noframe=1&responsive=1&screenId=0338350f-d7bd-4996-8656-48ec5d148d19"></iframe>
- 
-</body>
+        </div>
+      </div>
+    </div>
+
+    <div class="flip-card"  style="float: left; margin-left: 35px;">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="https://wildlandfirejobs.com/wp-content/uploads/2019/04/The-Nature-Conservancy-logo.jpg" style="width: 298px;height: 298px;">
+        </div>
+        <div class="flip-card-back" style="background-color: green">
+
+          <h1> The Nature Conservancy </h1>
+          <button style="background-color: darkgreen;"><a href="https://www.nature.org/en-us/get-involved/how-to-help/volunteer/" target="_blank"> Volunteer </a></button>
+          &nbsp;&nbsp;&nbsp;&nbsp;
+          <button style="background-color: darkgreen;"><a href="https://www.nature.org/en-us/get-involved/how-to-help/events/" target="_blank"> Attend Events </a></button>
+          <br><br>
+          <button style="background-color: darkgreen;"><a href="https://preserve.nature.org/page/80352/action/1" target="_blank"> Take Action </a></button>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <button style="background-color: darkgreen;"><a href="https://www.nature.org/en-us/membership-and-giving/donate-to-our-mission/gift-and-estate-planning/" target="_blank"> Gifts </a></button>
+          <br><br>
+          <button style="background-color: darkgreen;"><a href="https://www.nature.org/en-us/about-us/who-we-are/how-we-work/youth-engagement/nature-lab/" target="_blank"> Education </a></button>
+          &nbsp;&nbsp;
+          
+          <div class="dropdown">
+            <button class="dropbtn" style="background-color: darkgreen;">Donate</button>
+            <div class="dropdown-content">
+            <a href="https://www.nature.org/en-us/membership-and-giving/donate-to-our-mission/become-a-member/" target="_blank">Become a Member</a>
+            <a href="https://www.nature.org/en-us/membership-and-giving/donate-to-our-mission/renew-membership/" target="_blank">Renew Membership</a>
+            <a href="https://www.nature.org/en-us/membership-and-giving/donate-to-our-mission/give-monthly/" target="_blank">Monthly Donation</a>
+            <a href="https://www.tncindia.in/donate-india/" target="_blank">One-time Donation</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="flip-card" style=" float: left; margin-left: 35px;">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="IUCN_logo.jpg" style="width: 298px;height: 298px;">
+        </div>
+        <div class="flip-card-back" style="background-color: rgb(85, 0, 85);">
+
+          <h1> IUCN </h1>
+          <button style="background-color: #4863A0"><a href="https://www.iucn.org/our-union/members/become-iucn-member" target="_blank"> Become a Member </a></button>
+          <br><br>
+          <button style="background-color: #4863A0"><a href="https://www.iucn.org/our-union/expert-commissions" target="_blank"> Join a Commission </a></button>
+          <br><br>
+          <button style="background-color: #4863A0"><a href="https://www.iucn.org/procurement" target="_blank"> Procurement </a></button>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <button style="background-color: #4863A0"><a href="https://www.iucn.org/donate" target="_blank"> Donate </a></button>
+          <br><br>
+          <button style="background-color: #4863A0"><a href="https://www.iucn.org/newsletters" target="_blank"> Subscribe to a Newsletter  </a></button>
+        </div>
+      </div>
+    </div>
+
+    <div class="flip-card" style=" float: left; margin-left: 35px;">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjsQuHkOt5eii-TFzooj_b0auRygkfXURCm1plAB5awhWJqg6XHdZkYt-IAUOVBJxY68k&usqp=CAU" style="width: 298px;height: 298px;">
+        </div>
+        <div class="flip-card-back" style="background-color:yellow;">
+          <h1> IUCN </h1>
+          <button style="background-color: #FF0080"><a href="https://india.wcs.org/opportunities" target="_blank"> Opportunities </a></button>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <button style="background-color: #FF0080"><a href="https://india.wcs.org/About-Us/Support-Us" target="_blank"> Donate </a></button>
+          <br><br>
+          <button style="background-color: #FF0080"><a href="https://india.wcs.org/Programmes" target="_blank"> Programmes </a></button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+  <div class="footer">
+    <p> Author: Tusti Gupta </p>
+  </div>
+
+</body>  

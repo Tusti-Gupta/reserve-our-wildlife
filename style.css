@@ -1,160 +1,147 @@
-body {
-text-align: center;
-}
-
-nav {
-height: 100px;
-}
-
-.navbar-collapse a {
-color: white;
-font-size: 20px;
-text-align: center;
-}
-
 #zoom-logo {
 margin-top: 200px;
 height: 280px;
 width: 620p;
 }
 
+.nav-link {
+    font-size: 25px;
+}
+
 #Home {
-background-image: url(https://s01.sgp1.cdn.digitaloceanspaces.com/article/143116-bbjrhjihgb-1592568414.jpg);
-background-repeat: no-repeat;
-background-size: cover;
+    background-image: url("https://i.natgeofe.com/k/12e65ac5-26fe-4471-ad13-f9e34b803f6c/Sleeping_Tiger-Terrific_KIDS_0722.jpg?");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -8px;
 }
 
-#Home .text-capitalize {
-font-weight: bolder;
-text-align: left;
-margin-left: 80px;
-font-size: 80px;
+marquee {
+    background-color: #FFF1FA;
+    font-size: 14px;
+    font-weight: bold;
+    color: red;
 }
 
-#Protect_our {
-color: black;
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid black;
+  }
+  
+  div.gallery img {
+    width: 178px;
+    height: 135px;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  #Contribute {
+    margin-bottom: 100px;
+  }
+
+  .flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    border: 0.5px solid rgb(202, 201, 201);
+    justify-content: center;
+  }
+
+  .flip-card-inner {
+    position: relative;
+    width: 298px;
+    height:298px;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width:298px;
+    height:298px;
+    backface-visibility: hidden;
+  }
+
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+
+  .flip-card-back {
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+.flip-card-back button {
+  border: 0px;
+  border-radius: 4px;
 }
 
-#wildlife {
-color: #f57f0a;
+.flip-card-back h1 {
+  font-size: 34.5px;
 }
 
-#designer-line {
-margin-left: 80px;
-height: 25px;
-width: 180px;
-background-color: #f57f0a;
+.flip-card a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
 }
 
-.text-conjuster {
-width: 400px;
-font-size: 25px;
-color: white;
-font-style: italic;
+.dropdown {
+  position: relative;
+  display: inline-block;
 }
 
-.info-box {
-text-align: left;
-position: absolute;
+.dropbtn {
+  color: white;
+  font-size: 20px;
 }
 
-#box1 {
-margin-left:80px;
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 135px;
+  z-index: 100;
+  background-color: black;
 }
 
-#box2 {
-margin-left:550px;
+.dropdown-content a {
+  color: whitesmoke;
+  padding: 5px 16px;
+  display: block;
+  font-size: 16px;
 }
 
-#box3 {
-margin-left:1050px;
+.dropdown-content a:hover {
+  background-color: #212122;
 }
 
-.number {
-color: orangered;
-font-size: 120px;
-font-weight: bolder;
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
-#info-container .text-capitalize {
-font-weight: bold;
-}
-
-#grey-box {
-background-color:grey;
-padding: 30px;
-padding-top: 90px;
-}
-
-#image-box {
-margin-left: 505px;
-}
-
-#orange-box {
-background-color: orange;
-margin-left: 1010px;
-padding: 50px;
-text-align: justify;
-}
-
-.color-boxes {
-position: absolute;
-color: white;
-width: 505px;
-height: 500px;
-}
-
-.scrollmenu {
-overflow-x: hidden;
-overflow-y: auto;
-}
-
-#Home .text-conjuster {
-margin-left: 80px;
-}
-
-#orange-box_pointers {
-list-style: outside;
-margin: 0;
-padding: 0;
-}
-
-.imgcover {
-    padding: 20px;
-    width: fit-content;
-}
-
-.section3images {
-    height: 500px;
-    width: 700px;
-}
-
-label {
-    color: whitesmoke;
-    font-family: cursive;
-}
-
-.flex-container {
-    display: flex;
-    padding: 10px
-}
-
-#one {
-    background-color: lightgreen;
-}
-
-#four {
-    background-color: #f57f0a;
-}
-
-#three {
-    background-color: pink;
-}
-
-#two {
-    background-color: lightskyblue;
-}
-
-#five {
-    background-color: purple;
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: darksalmon;
+  color: white;
+  text-align: center;
+  font-family: cursive;
+  font-size: 10px;
+  height: 15px;
 }
